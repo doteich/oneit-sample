@@ -1,0 +1,7 @@
+machines:
+- name: Line 1
+  ip: 192.168.178.108
+  port: 49320
+- name: Line 2
+  ip: 192.168.178.108
+  port: 49320

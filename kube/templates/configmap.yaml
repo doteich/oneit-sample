@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: oneit-cm
+data:
+  conf: | 
+    {{.Values.machines | toJson}}
